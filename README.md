@@ -7,3 +7,4 @@ LPT controlled home termostat contains (C, PHP):
 - MySQL settings
 - MySQL temperature logging
 - Web status presentation (PHP)
+- SMS status change notification (needs configured Asterisk SMS gateway, or smsd)
