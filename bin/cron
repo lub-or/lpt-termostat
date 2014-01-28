@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/home/lubo/cron/teplomer/teplomer
+php -q /home/lubo/cron/teplomer/main.php
+/home/lubo/cron/teplomer/rele

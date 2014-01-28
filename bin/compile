@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -O6 teplomer.c -o teplomer
+gcc -O6 rele.c -o rele

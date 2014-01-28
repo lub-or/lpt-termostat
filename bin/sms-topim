@@ -1,0 +1,15 @@
+Action: login
+Username: your-ast-man-user
+Secret: ********
+
+Action: originate
+Channel: LOCAL/1@sms-dummy
+Context: klasika
+Exten: stocksy
+WaitTime: 7
+CallerId: 5555
+Async: true
+Priority: 1
+Variable: SMSTO=+XXXXXXXXX,SMSBODY="Zapinam rele"
+
+Action: Logoff
